@@ -233,3 +233,78 @@ flowchart TD
 ### 6. Pest/Disease Report
 
 ![Pest/Disease Report](./screenshots/pest_report.png)
+
+---
+
+# Project Planning
+
+Project: **AgriSurvey** a web app for agricultural field data collection
+Communication: **Slack** (channel: #agrisurvey)
+Standup: **Daily at 10 AM** (link to be shared in Slack)
+
+## Project Team
+
+- **Product Owner**: [Your Name]
+- **Project Manager**: [Your Name]
+- **Software Engineer**: [Your Name]
+- **Software Engineer**: [Your Name]
+- **QA Engineer**: [Your Name]
+
+## Goals & Scope:
+
+- **Goal**: Enable enumerators to authenticate, record farm, crop, soil/water and pest reports offline/online  
+- **Core MVP**: Basic admin dashboard with coverage stats and CSV export  
+
+## Deliverables:
+
+- Project charter (roles, tech stack: Django + PostgreSQL, HTML/CSS/JS)
+- Initial ER diagram & database schema
+
+## Product Backlog as user‑story
+
+| ID  | User Story                                                                                  | Est. Points |
+|-----|---------------------------------------------------------------------------------------------|:-----------:|
+| US1 | As an Enumerator, I can log in so that only authorized users collect data.                  |      3      |
+| US2 | As an Enumerator, I can record Farm details (address, owner, GPS, photo).                   |      5      |
+| US3 | As an Enumerator, I can record Crop information (type, variety, dates).                     |      3      |
+| US4 | As an Enumerator, I can log Soil samples (pH, moisture, nutrients, photo).                  |      5      |
+| US5 | As an Enumerator, I can log Water samples (pH, turbidity, photo).                           |      5      |
+| US6 | As an Enumerator, I can report Pests/Diseases (category, severity, photo).                  |      5      |
+| US7 | As an Enumerator, I can work offline and sync data when online.                              |      8      |
+| US8 | As an Admin, I can view a dashboard with survey completion rates and export CSV reports.    |      5      |
+
+## Sprint Planning
+
+- **Sprint 1**  
+  - US1 (Login) & US2 (Farm Details)
+    - Secure login
+    - Persistent Farm form
+    - Unit tests for login and Farm form
+- **Sprint 2**  
+  - US3 (Crop Info) & US4 (Soil Sampling)
+    - CRUD flows for Crop and SoilSample
+    - Integration tests for form validation
+- **Sprint 3**
+  - US5 (Water Sampling) & US6 (Pest/Disease Reporting)
+    - CRUD flows for WaterSample and PestDiseaseReport
+    - Integration tests for data integrity
+- **Sprint 4**
+  - US7 (Offline Sync) & US8 (Admin Dashboard)
+    - Offline data storage and sync logic
+    - Admin dashboard with mockup data
+    - Unit tests for sync and dashboard
+
+## Release Planning
+
+- **Release 1.0**  
+  - Core features: US1, US2, US3, US4
+  - Target date: [Insert date]
+  - Deployment: [Insert deployment method]
+- **Release 2.0**
+  - Additional features: US5, US6, US7
+  - Target date: [Insert date]
+  - Deployment: [Insert deployment method]
+- **Release 3.0**
+  - Final features: US8, bug fixes
+  - Target date: [Insert date]
+  - Deployment: [Insert deployment method]
