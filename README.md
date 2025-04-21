@@ -239,8 +239,8 @@ flowchart TD
 # Project Planning
 
 Project: **AgriSurvey** a web app for agricultural field data collection
-Communication: **Slack** (channel: #agrisurvey)
-Standup: **Daily at 10 AM** (link to be shared in Slack)
+Communication: **Microsoft Teams** (link to be send via email)
+Standup: **Daily at 10 AM** (UTC+3)
 
 ## Project Team
 
