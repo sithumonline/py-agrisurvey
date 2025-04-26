@@ -26,13 +26,38 @@ The application is structured into four main modules:
 - Responsive design for mobile and desktop
 - SQLite database for data storage
 
+## Modules and Functions
+
+### 1. Auth
+- **Login**: Secure login for enumerators and admins
+
+### 2. Farm
+- **Add Farm**: Add new farm details
+- **View Farms**: View list of farms
+
+### 3. Sampling
+- **Add Soil Sample**: Add soil sample details
+- **Add Water Sample**: Add water sample details
+- **View Soil Samples**: View list of soil samples
+- **View Water Samples**: View list of water samples
+
+### 4. Pest & Disease
+- **Add Pest/Disease Report**: Add pest and disease report details
+- **View Pest/Disease Report**: View pest and disease reports
+
+### 5. Dashboard
+- **Dashboard**: Overview of all farms, crops, and samples from mockup data
+
+### 6. Reports
+- **Download Data**: Export data in CSV format
+
 ## Project Scope
 
 - Create initial database schema and models
 - Integrate Django ORM with postgreSQL
-- Implement simple user authentication
+- Implement simple user authentication <!-- use default username and password -->
 - Dashboard with mockup data
-- Build basic UI for show:
+- Build basic UI for view and add:
     - Route assignment
     - Farm details entry
     - Crop information management
