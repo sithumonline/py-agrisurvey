@@ -241,9 +241,13 @@ flowchart TD
 
 ![Route List](./screenshots/route_list.png)
 
+![image](https://github.com/user-attachments/assets/5feed6b4-2067-4bba-8b4c-55c47a319378)
+
 ### 4. Farm List
 
 ![Farm List](./screenshots/farm_list.png)
+
+![image](https://github.com/user-attachments/assets/8005f59e-9030-40f3-a8d1-725688c5b62d)
 
 ### 5. Sampling
 
@@ -251,13 +255,24 @@ flowchart TD
 
 ![Soil Sample](./screenshots/soil_sample.png)
 
+![image](https://github.com/user-attachments/assets/c74fe8c9-7f94-4725-907c-7ed1703dbe1a)
+
 ### 5.2 Water Sample
 
 ![Water Sample](./screenshots/water_sample.png)
 
+![image](https://github.com/user-attachments/assets/528c1f28-a2a5-4134-a121-0832b7eb072f)
+
 ### 6. Pest/Disease Report
 
 ![Pest/Disease Report](./screenshots/pest_report.png)
+
+![image](https://github.com/user-attachments/assets/710ecff3-9371-4511-b211-df38f5bd7fad)
+
+### 7. Reports
+
+![image](https://github.com/user-attachments/assets/4abace24-c974-4c88-86d4-6674267853b5)
+
 
 ---
 
